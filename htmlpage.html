@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rohini Photography</title>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="cssfile.css" />
+    <!-- Font awesome -->
+    <script src="https://kit.fontawesome.com/e6b8371d90.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- Header section -->
+    <div id="header">
+        <div class="container">
+            <nav>
+               
+                <ul id="sidemenu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#works">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Amateur Filmmaker</p>
+                <h1>
+                    Hi, I'm <span>ROHINI</span> <br />
+                    An Indian Photographer.
+                </h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- About section -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="user.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I'm Rohini, an amateur photographer. Goal is to allign people in the perspective of my lens. I have been in this field for years and have been making myself good enough to capture any kind of frame.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <!--<p class="tab-links" onclick="opentab('education')">Education</p>-->
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Smart Phone Photography</span><br>Cityscapes, Countryscape and Portraits.</li>
+                            <li><span>Drone shooting</span><br>Scenery Capturing, Nature shoots</li>
+                            <li><span>Moviemaking and Editinig</span><br>Shooting with smartphone or Movie camera and editing</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2023 - Current</span><br>Working on a short movie.</li>
+                            <li><span>2022 - 2023</span><br>Awarded for best direceted short film for Vidyarth.</li>
+                            <li><span>2021 - 2022</span><br>Winner of Netran AIP competiotion</li>
+                        </ul>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Services section -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-camera"></i>
+                    <h2>Pro-Res</h2>
+                    <p>Using SONY's and FUJIFILM's professional camera.</p>
+                    <a href="https://www.bing.com/ck/a?!&&p=81cd2f4d75f7bc28JmltdHM9MTY5NjExODQwMCZpZ3VpZD0yZmU0ODU1Yi0yOWY5LTY4NjItMGVlMS05NDhmMjg1NDY5ZmImaW5zaWQ9NTIxOA&ptn=3&hsh=3&fclid=2fe4855b-29f9-6862-0ee1-948f285469fb&psq=photography+with+sony&u=a1aHR0cHM6Ly9lbGVjdHJvbmljcy5zb255LmNvbS94cGVyaWEtcGhvdG9ncmFwaHk&ntb=1">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-film"></i>
+                    <h2>Film making</h2>
+                    <p>Film making and editing using professional tools like luma fusion.</p>
+                    <a href="https://www.bing.com/ck/a?!&&p=e041b0b15438ae44JmltdHM9MTY5NjExODQwMCZpZ3VpZD0yZmU0ODU1Yi0yOWY5LTY4NjItMGVlMS05NDhmMjg1NDY5ZmImaW5zaWQ9NTI2Ng&ptn=3&hsh=3&fclid=2fe4855b-29f9-6862-0ee1-948f285469fb&psq=film+making&u=a1aHR0cHM6Ly93d3cubWFzdGVyY2xhc3MuY29tL2FydGljbGVzL3VuZGVyc3RhbmRpbmctdGhlLXN0YWdlcy1vZi1maWxtLXByb2R1Y3Rpb24&ntb=1">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-square-phone-flip"></i>
+                    <h2>Drone Shoots</h2>
+                    <p>Drone shots for any domain.</p>
+                    <a href="https://www.bing.com/ck/a?!&&p=63dcccd3d662e285JmltdHM9MTY5NjExODQwMCZpZ3VpZD0yZmU0ODU1Yi0yOWY5LTY4NjItMGVlMS05NDhmMjg1NDY5ZmImaW5zaWQ9NTMzNg&ptn=3&hsh=3&fclid=2fe4855b-29f9-6862-0ee1-948f285469fb&psq=drone+shoot&u=a1aHR0cHM6Ly93d3cuYWRvYmUuY29tL2NyZWF0aXZlY2xvdWQvcGhvdG9ncmFwaHkvZGlzY292ZXIvZHJvbmUtcGhvdG9ncmFwaHkuaHRtbA&ntb=1">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Works section -->
+    <div id="works">
+        <div class="container">
+            <h1 class="sub-title">My Works</h1>
+            <div class="works-list">
+                <div class="work">
+                    <img src="work-1.png" alt="work-1">
+                    <div class="layer">
+                        <h3>UB City</h3>
+                        <p>IIIT bangalore, awarded for best scyscraper capture.</p>
+                        
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work-2.png" alt="work-2">
+                    <div class="layer">
+                        <h3>Millipeade</h3>
+                        <p>JSS, Lenstaantrik awarded, for best insect picture of the year</p>
+                        
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work-3.png" alt="work-3">
+                    <div class="layer">
+                        <h3>Butterfly Beach</h3>
+                        <p>Sunset scape awarded the best sunset captured in NITK, Satka event.</p>
+                        
+                    </div>
+                </div>
+            </div>
+            <a href="https://www.instagram.com/rhs_clicks_/" class="btn">See more</a>
+        </div>
+    </div>
+
+    <!-- Contact section -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>Techverse@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone-flip"></i>+91 7892456520</p>
+                    <div class="social-icons">
+                        <a href="https://www.bing.com/ck/a?!&&p=6c1ebdbd3017d319JmltdHM9MTY5NjExODQwMCZpZ3VpZD0yZmU0ODU1Yi0yOWY5LTY4NjItMGVlMS05NDhmMjg1NDY5ZmImaW5zaWQ9NTIxMg&ptn=3&hsh=3&fclid=2fe4855b-29f9-6862-0ee1-948f285469fb&psq=facebook&u=a1aHR0cHM6Ly93d3cuZmFjZWJvb2suY29tLw&ntb=1"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.bing.com/ck/a?!&&p=75621fd3317e4f1aJmltdHM9MTY5NjExODQwMCZpZ3VpZD0yZmU0ODU1Yi0yOWY5LTY4NjItMGVlMS05NDhmMjg1NDY5ZmImaW5zaWQ9NTIwNw&ptn=3&hsh=3&fclid=2fe4855b-29f9-6862-0ee1-948f285469fb&psq=instagram&u=a1aHR0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS8&ntb=1"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.bing.com/ck/a?!&&p=816bd3c27b55cc5eJmltdHM9MTY5NjExODQwMCZpZ3VpZD0yZmU0ODU1Yi0yOWY5LTY4NjItMGVlMS05NDhmMjg1NDY5ZmImaW5zaWQ9NTE5Ng&ptn=3&hsh=3&fclid=2fe4855b-29f9-6862-0ee1-948f285469fb&psq=twitter&u=a1aHR0cHM6Ly90d2l0dGVyLmNvbS8_bGFuZz1lbi1pbg&ntb=1"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://www.bing.com/ck/a?!&&p=823350013453ea35JmltdHM9MTY5NjExODQwMCZpZ3VpZD0yZmU0ODU1Yi0yOWY5LTY4NjItMGVlMS05NDhmMjg1NDY5ZmImaW5zaWQ9NTIxMA&ptn=3&hsh=3&fclid=2fe4855b-29f9-6862-0ee1-948f285469fb&psq=linkedin&u=a1aHR0cHM6Ly93d3cubGlua2VkaW4uY29tL2xvZ2lu&ntb=1"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    
+                </div>
+                <div class="contact-right">
+                    <form action="">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+
+    <script>
+
+        var sidemeu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemeu.style.right = "0";
+        }
+
+        function closemenu(){
+            sidemeu.style.right = "-200px";
+        }
+
+    </script>
+</body>
+
+</html>
